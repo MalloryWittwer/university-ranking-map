@@ -1,0 +1,543 @@
+{
+    "Harvard University": {
+        "rank": 1,
+        "lat": "42.36790855",
+        "lng": "-71.12678237443698",
+		"url": "https://www.harvard.edu/"
+    },
+    "Stanford University": {
+        "rank": 2,
+        "lat": "37.431313849999995",
+        "lng": "-122.16936535498309",
+		"url": "https://www.stanford.edu/"
+    },
+    "University of Cambridge": {
+        "rank": 3,
+        "lat": "52.1998523",
+        "lng": "0.11973865741074383",
+		"url": "https://www.cam.ac.uk/"
+    },
+    "Massachusetts Institute of Technology (MIT)": {
+        "rank": 4,
+        "lat": "42.3582393",
+        "lng": "-71.09664602558988",
+		"url": "https://www.mit.edu/"
+    },
+    "University of California, Berkeley": {
+        "rank": 5,
+        "lat": "37.8753497",
+        "lng": "-122.23963364918777",
+		"url": "https://www.berkeley.edu/"
+    },
+    "Princeton University": {
+        "rank": 6,
+        "lat": "40.33867515",
+        "lng": "-74.65836549131683",
+		"url": "https://www.princeton.edu/"
+    },
+    "University of Oxford": {
+        "rank": 7,
+        "lat": "51.75870755",
+        "lng": "-1.2556684826092037",
+		"url": "https://www.ox.ac.uk/"
+    },
+    "Columbia University": {
+        "rank": 8,
+        "lat": "40.8077627",
+        "lng": "-73.96164061324416",
+		"url": "https://www.columbia.edu/"
+    },
+    "California Institute of Technology": {
+        "rank": 9,
+        "lat": "34.13701375",
+        "lng": "-118.1252882487961",
+		"url": "https://www.caltech.edu/"
+    },
+    "University of Chicago": {
+        "rank": 10,
+        "lat": "41.789722",
+        "lng": "-87.599724",
+		"url": "https://www.uchicago.edu/"
+    },
+    "University of California, Los Angeles": {
+        "rank": 11,
+        "lat": "34.0708781",
+        "lng": "-118.44684973165106",
+		"url": "https://www.ucla.edu/"
+    },
+    "Cornell University": {
+        "rank": 12,
+        "lat": "42.450550699999994",
+        "lng": "-76.47835129554275",
+		"url": "https://www.cornell.edu/"
+    },
+    "Yale University": {
+        "rank": 12,
+        "lat": "41.25713055",
+        "lng": "-72.98966960152231",
+		"url": "https://www.yale.edu/"
+    },
+    "University of Washington": {
+        "rank": 14,
+        "lat": "47.6543238",
+        "lng": "-122.30800894320257",
+		"url": "https://www.washington.edu/"
+    },
+    "University of California, San Diego": {
+        "rank": 15,
+        "lat": "32.87935255",
+        "lng": "-117.2311004938553",
+		"url": "https://www.sandiego.edu/"
+    },
+    "University of Pennsylvania": {
+        "rank": 16,
+        "lat": "39.9493382",
+        "lng": "-75.18964402998125",
+		"url": "https://www.upenn.edu/"
+    },
+    "University College London": {
+        "rank": 17,
+        "lat": "51.52420305",
+        "lng": "-0.13300072425929543",
+		"url": "https://www.ucl.ac.uk/"
+    },
+    "Johns Hopkins University": {
+        "rank": 18,
+        "lat": "39.33020225",
+        "lng": "-76.62185357858337",
+		"url": "https://www.jhu.edu/"
+    },
+	"Swiss Federal Institute of Technology Zurich": {
+        "rank": 19,
+        "lat": "47.40832745",
+        "lng": "8.507563966360525",
+		"url": "https://ethz.ch/"
+    },
+    "Washington University in St. Louis": {
+        "rank": 20,
+        "lat": "38.64724015",
+        "lng": "-90.3084017323959",
+		"url": "https://wustl.edu/"
+    },
+    "University of California, San Francisco": {
+        "rank": 21,
+        "lat": "37.7627382",
+        "lng": "-122.45827408207481",
+		"url": "https://www.ucsf.edu/"
+    },
+    "The University of Tokyo": {
+        "rank": 22,
+        "lat": "35.711163799999994",
+        "lng": "139.76056244111012",
+		"url": "https://www.u-tokyo.ac.jp/en/index.html"
+    },
+    "University of Toronto": {
+        "rank": 23,
+        "lat": "43.663461999999996",
+        "lng": "-79.39775966248058",
+		"url": "https://www.utoronto.ca/"
+    },
+    "Imperial College London": {
+        "rank": 24,
+        "lat": "51.4989595",
+        "lng": "-0.17564125978794498",
+		"url": "https://www.imperial.ac.uk/"
+    },
+    "Northwestern University": {
+        "rank": 25,
+        "lat": "42.0551164",
+        "lng": "-87.67581113482166",
+		"url": "https://www.northwestern.edu/"
+    },
+    "Duke University": {
+        "rank": 26,
+        "lat": "36.00015569999999",
+        "lng": "-78.94422972195878",
+		"url": "https://duke.edu/"
+    },
+    "University of Michigan-Ann Arbor": {
+        "rank": 27,
+        "lat": "42.2942142",
+        "lng": "-83.71003893509601",
+		"url": "https://umich.edu/"
+    },
+	"University of Wisconsin - Madison": {
+        "rank": 28,
+        "lat": "44.8519784",
+        "lng": "-92.6167556",
+		"url": "https://www.wisc.edu/"
+    },
+    "University of Copenhagen": {
+        "rank": 29,
+        "lat": "55.6970372",
+        "lng": "12.571574419652498",
+		"url": "https://www.ku.dk/english/"
+    },
+    "Rockefeller University": {
+        "rank": 30,
+        "lat": "40.76243945",
+        "lng": "-73.95575647630713",
+		"url": "https://www.rockefeller.edu/"
+    },
+    "University of North Carolina at Chapel Hill": {
+        "rank": 30,
+        "lat": "35.90503535",
+        "lng": "-79.04775326525107",
+		"url": "https://www.unc.edu/"
+    },
+    "The University of Edinburgh": {
+        "rank": 32,
+        "lat": "55.9476313",
+        "lng": "-3.1882588",
+		"url": "https://www.ed.ac.uk/"
+    },
+    "New York University": {
+        "rank": 32,
+        "lat": "40.72925325",
+        "lng": "-73.99625393609625",
+		"url": "https://www.nyu.edu/"
+    },
+    "The University of Manchester": {
+        "rank": 34,
+        "lat": "53.5805396",
+        "lng": "-2.5356647666666667",
+		"url": "https://www.manchester.ac.uk/"
+    },
+    "Kyoto University": {
+        "rank": 35,
+        "lat": "35.0202814",
+        "lng": "135.774069",
+		"url": "https://www.kyoto-u.ac.jp/en"
+    },
+    "Sorbonne University": {
+        "rank": 36,
+        "lat": "48.846899699999994",
+        "lng": "2.357448653115875",
+		"url": "http://www.sorbonne-universite.fr/"
+    },
+	"University of Minnesota, Twin Cities": {
+        "rank": 37,
+        "lat": "44.97780325",
+        "lng": "-93.2332510255882",
+		"url": "https://twin-cities.umn.edu/"
+    },
+	
+    "University of Colorado at Boulder": {
+        "rank": 38,
+        "lat": "39.976357",
+        "lng": "-105.23074936105465",
+		"url": "https://www.colorado.edu/"
+    },
+    "The University of Melbourne": {
+        "rank": 38,
+        "lat": "-37.837476699999996",
+        "lng": "145.04130844471126",
+		"url": "https://www.unimelb.edu.au/"
+    },
+    "The University of Texas at Austin": {
+        "rank": 40,
+        "lat": "30.27715345",
+        "lng": "-97.73440380486116",
+		"url": "https://www.utexas.edu/"
+    },
+    "University of Illinois at Urbana-Champaign": {
+        "rank": 41,
+        "lat": "40.10056605",
+        "lng": "-88.23131272434611",
+		"url": "https://illinois.edu/"
+    },
+	"University of Paris-Sud": {
+        "rank": 42,
+        "lng": "48.8513617",
+        "lat": "2.3410848659541275",
+		"url": "https://www.universite-paris-saclay.fr/"
+    },
+    "University of British Columbia": {
+        "rank": 43,
+        "lng": "-123.24658161001929",
+        "lat": "49.258393749999996",
+		"url": "https://www.ubc.ca/"
+    },
+    "Karolinska Institute": {
+        "rank": 44,
+        "lat": "59.219549549999996",
+        "lng": "17.94005487275674",
+		"url": "https://ki.se/en"
+    },
+    "Tsinghua University": {
+        "rank": 45,
+        "lat": "40.002290450000004",
+        "lng": "116.3209629696906",
+		"url": "https://www.tsinghua.edu.cn/en/"
+    },
+    "University of California, Santa Barbara": {
+        "rank": 46,
+        "lat": "34.414602450000004",
+        "lng": "-119.84581004701371",
+		"url": "https://www.ucsb.edu/"
+    },
+    "Heidelberg University": {
+        "rank": 47,
+        "lat": "41.11442525",
+        "lng": "-83.16686666639325",
+		"url": "https://www.uni-heidelberg.de/de"
+    },
+    "Technical University Munich": {
+        "rank": 48,
+        "lat": "48.149554550000005",
+        "lng": "11.567753141783761",
+		"url": "https://www.tum.de/"
+    },
+    "Vanderbilt University": {
+        "rank": 50,
+        "lat": "36.14380105",
+        "lng": "-86.80281889095295",
+		"url": "https://www.vanderbilt.edu/"
+    },
+    "University of Maryland, College Park": {
+        "rank": 51,
+        "lat": "38.99203005",
+        "lng": "-76.94610290199051",
+		"url": "https://www.umd.edu/"
+    },
+    "Utrecht University": {
+        "rank": 51,
+        "lat": "52.0851623",
+        "lng": "5.1741064",
+		"url": "https://www.uu.nl/en"
+    },
+    "University of Munich": {
+        "rank": 53,
+        "lat": "48.149554550000005",
+        "lng": "11.567753141783761",
+		"url": "https://www.lmu.de/en/"
+    },
+    "University of Zurich": {
+        "rank": 54,
+        "lat": "47.49684345",
+        "lng": "8.72980716809498",
+		"url": "https://www.uzh.ch/en.html"
+    },
+    "The University of Queensland": {
+        "rank": 55,
+        "lat": "-27.49741805",
+        "lng": "153.01316955983583",
+		"url": "https://www.uq.edu.au/"
+    },
+    "King's College London": {
+        "rank": 56,
+        "lat": "51.4698444",
+        "lng": "-0.08927859849247616",
+		"url": "https://www.kcl.ac.uk/"
+    },
+    "University of Helsinki": {
+        "rank": 57,
+        "lat": "60.171039300000004",
+        "lng": "24.949155335163038",
+		"url": "https://www.helsinki.fi/en"
+    },
+    "Peking University": {
+        "rank": 57,
+        "lat": "39.99171495",
+        "lng": "116.30393496863539",
+		"url": "https://english.pku.edu.cn/"
+    },
+    "University of Geneva": {
+        "rank": 59,
+        "lat": "46.1935215",
+        "lng": "6.1515108",
+		"url": "https://www.unige.ch/en/"
+    },
+    "University of Southern California": {
+        "rank": 60,
+        "lat": "34.0218833",
+        "lng": "-118.28586726915088",
+		"url": "https://www.usc.edu/"
+    },
+    "Ghent University": {
+        "rank": 61,
+        "lat": "51.007947349999995",
+        "lng": "3.7108810500000002",
+		"url": "https://www.ugent.be/en"
+    },
+    "University of Oslo": {
+        "rank": 62,
+        "lat": "59.941420699999995",
+        "lng": "10.723683901860808",
+		"url": "https://www.uio.no/english/"
+    },
+    "Uppsala University": {
+        "rank": 63,
+        "lat": "59.8617859",
+        "lng": "17.6376705",
+		"url": "https://www.uu.se/en"
+    },
+    "Aarhus University": {
+        "rank": 65,
+        "lat": "56.1670905",
+        "lng": "10.202617693592895",
+		"url": "https://international.au.dk/"
+    },
+    "University of Groningen": {
+        "rank": 66,
+        "lat": "53.21967825",
+        "lng": "6.562514810379012",
+		"url": "https://www.rug.nl/?lang=en"
+    },
+    "Zhejiang University": {
+        "rank": 67,
+        "lat": "30.2965053",
+        "lng": "120.0714201706662",
+		"url": "https://www.zju.edu.cn/english/"
+    },
+    "University of Sydney": {
+        "rank": 68,
+        "lat": "-33.8960328",
+        "lng": "151.18446827959804",
+		"url": "https://www.sydney.edu.au/"
+    },
+    "The Australian National University": {
+        "rank": 69,
+        "lat": "-33.8828784",
+        "lng": "151.20068119546247",
+		"url": "https://www.anu.edu.au/"
+    },
+    "Rice University": {
+        "rank": 70,
+        "lat": "29.716791450000002",
+        "lng": "-95.40478113393792",
+		"url": "https://www.rice.edu/"
+    },
+    "McGill University": {
+        "rank": 70,
+        "lat": "45.5038108",
+        "lng": "-73.5750177",
+		"url": "https://www.mcgill.ca/"
+    },
+    "Boston University": {
+        "rank": 70,
+        "lat": "42.35031725",
+        "lng": "-71.10122725124097",
+		"url": "https://www.bu.edu/"
+    },
+    "Leiden University": {
+        "rank": 74,
+        "lat": "52.168633850000006",
+        "lng": "4.45966305742133",
+		"url": "https://www.universiteitleiden.nl/en"
+    },
+    "University of Bristol": {
+        "rank": 74,
+        "lat": "51.4572577",
+        "lng": "-2.6007919",
+		"url": "https://www.bristol.ac.uk/"
+    },
+    "Technion-Israel Institute of Technology": {
+        "rank": 77,
+        "lat": "32.7768128",
+        "lng": "35.02254464999363",
+		"url": "https://www.technion.ac.il/en/home-2/"
+    },
+    "Stockholm University": {
+        "rank": 77,
+        "lat": "59.366141",
+        "lng": "18.059592960559392",
+		"url": "https://www.su.se/cmlink/stockholm-university"
+    },
+    "Erasmus University Rotterdam": {
+        "rank": 79,
+        "lat": "51.9228696",
+        "lng": "4.487498568528366",
+		"url": "https://www.eur.nl/"
+    },
+    "Georgia Institute of Technology": {
+        "rank": 79,
+        "lat": "33.776033",
+        "lng": "-84.39884086001581",
+		"url": "https://www.gatech.edu/"
+    },
+    "Mayo Medical School": {
+        "rank": 81,
+        "lat": "44.0211754",
+        "lng": "-92.4668987",
+		"url": "https://college.mayo.edu/academics/mayo-clinic-alix-school-of-medicine/"
+    },
+    "Nagoya University": {
+        "rank": 83,
+        "lat": "35.15330865",
+        "lng": "136.96778056540737",
+		"url": "https://en.nagoya-u.ac.jp/"
+    },
+    "University of California, Irvine": {
+        "rank": 83,
+        "lat": "33.6431901",
+        "lng": "-117.84016493553044",
+		"url": "https://uci.edu/"
+    },
+    "National University of Singapore": {
+        "rank": 85,
+        "lat": "1.2962018",
+        "lng": "103.77689943784759",
+		"url": "https://www.nus.edu.sg/"
+    },
+    "Moscow State University": {
+        "rank": 86,
+        "lat": "55.70229715",
+        "lng": "37.531797769429105",
+		"url": "https://www.msu.ru/en/"
+    },
+    "KU Leuven": {
+        "rank": 86,
+        "lat": "50.8676953",
+        "lng": "4.685170081380257",
+		"url": "https://www.kuleuven.be/lang/fr"
+    },
+    "McMaster University": {
+        "rank": 86,
+        "lat": "43.263939699999995",
+        "lng": "-79.91782519029299",
+		"url": "https://www.mcmaster.ca/"
+    },
+    "University of Florida": {
+        "rank": 86,
+        "lat": "29.6328784",
+        "lng": "-82.34901330482433",
+		"url": "https://www.ufl.edu/"
+    },
+    "Carnegie Mellon University": {
+        "rank": 91,
+        "lat": "40.444189699999995",
+        "lng": "-79.94271918393466",
+		"url": "https://www.cmu.edu/"
+    },
+    "Monash University": {
+        "rank": 91,
+        "lat": "-37.910776350000006",
+        "lng": "145.13480648790716",
+		"url": "https://www.monash.edu/"
+    },
+    "The University of Western Australia": {
+        "rank": 93,
+        "lat": "-35.0277407",
+        "lng": "117.8874729",
+		"url": "https://www.uwa.edu.au/"
+    },
+    "University of Basel": {
+        "rank": 96,
+        "lat": "47.5612651",
+        "lng": "7.5752961",
+		"url": "https://www.unibas.ch/en.html"
+    },
+    "Nanyang Technological University": {
+        "rank": 96,
+        "lat": "1.3484104000000001",
+        "lng": "103.68293320728537",
+		"url": "https://www.ntu.edu.sg/"
+    },
+    "University of California, Davis": {
+        "rank": 96,
+        "lat": "38.533790350000004",
+        "lng": "-121.79079892146456",
+		"url": "https://www.ucdavis.edu/"
+    }
+}

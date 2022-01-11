@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.marker {
+  background-image: url('../public/gradhat.png');
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50px;
+  z-index: 1;
+}
+
+.range-container {
+  padding: 10px 0px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+#range-slider {
+  width: 100%;
+  margin-left: 10px;
+  -webkit-appearance: none;
+  height: 10px;
+  border-radius: 5px;
+  background: black;
+  opacity: 0.8;
+  outline: none;
+}
+
+#range-slider:hover {
+  opacity: 1;
+}
+
+#range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background: #fdba00;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#map {
+  width: 100%;
+  height: 100vh;
+}
+
+output {
+  white-space: nowrap;
+  color: #fdba00;
+  margin: 0px 10px;
+} 
+
+#map-selector {
+  margin: 0 20px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.popup-container {
+  color: white;
+  text-align: center;
+}
+
+.homepage-link {
+  color: black;
+  background: #fdba00;
+  opacity: 0.9;
+  border-radius: 20px;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.homepage-link:hover {
+  opacity: 1;
+}
+
+h3 {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-weight: normal;
+  border-bottom: 1px solid white;
+}
+
+.mapboxgl-popup-close-button {
+  color: white;
+}
+
+.mapboxgl-popup-content {
+  background: black !important;
+  padding-bottom: 20px !important;
+  opacity: 0.9;
+  min-width: 200px;
+  z-index: 10;
+}
