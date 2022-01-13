@@ -48,11 +48,7 @@ class MapSelector extends Component {
   render() {
     return (
       <Select
-        options={[
-          { value: "world", label: "World" },
-          { value: "usa", label: "USA" },
-          { value: "europe", label: "Europe" },
-        ]}
+        options={this.props.options}
         styles={customStyles}
         defaultValue={{ value: "world", label: "World" }}
         onChange={this.handleUpdate}
