@@ -5,6 +5,9 @@ import "mapbox-gl/dist/mapbox-gl.css";
 
 import Popup from "./popup";
 
+// eslint-disable-next-line import/no-webpack-loader-syntax
+mapboxgl.workerClass = require("worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker").default;
+
 const key = process.env.REACT_APP_MAPBOX_API_KEY;
 
 class Map extends Component {
