@@ -41,8 +41,8 @@ class App extends Component {
     if (area === "usa") {
       this.setState({
         bounds: [
-          [-100, 60],
-          [-110, 15],
+          [-125.0011, 24.9493],
+          [-66.9326, 49.5904],
         ],
       });
     } else if (area === "europe") {
@@ -63,7 +63,7 @@ class App extends Component {
   }
 
   componentDidMount = () => {
-    fetch(process.env.PUBLIC_URL + '/data-ranking.json')
+    fetch(process.env.PUBLIC_URL + "/data-ranking.json")
       .then((response) => response.json())
       .then((data) => {
         this.setState({ rankingData: data });
