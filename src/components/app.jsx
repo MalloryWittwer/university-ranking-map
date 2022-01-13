@@ -42,29 +42,6 @@ class App extends Component {
 
   setBounds(area) {
     this.setState({ bounds: this.state.boxes[area] });
-
-    // if (area === "usa") {
-    //   this.setState({
-    //     bounds: [
-    //       [-125.0011, 24.9493],
-    //       [-66.9326, 49.5904],
-    //     ],
-    //   });
-    // } else if (area === "europe") {
-    //   this.setState({
-    //     bounds: [
-    //       [25, 70],
-    //       [0, 30],
-    //     ],
-    //   });
-    // } else {
-    //   this.setState({
-    //     bounds: [
-    //       [180, 90],
-    //       [-180, -70],
-    //     ],
-    //   });
-    // }
   }
 
   handleRankingData = () => {
@@ -97,17 +74,6 @@ class App extends Component {
       .then((data) => {
         let boxes = {};
         let options = [];
-        for (const [countryKey, element] of Object.entries(data)) {
-          if (this.state.countries.has(countryKey)) {
-            const country = element[0];
-            const box = [
-              [element[1][0], element[1][1]],
-              [element[1][2], element[1][3]],
-            ];
-            boxes[country] = box;
-            options.push({ value: country, label: country });
-          }
-        }
 
         // Add World
         options.push({ value: "World", label: "World" });
@@ -122,6 +88,19 @@ class App extends Component {
           [25, 70],
           [0, 30],
         ];
+
+        // Add countries with at least 1 university
+        for (const [countryKey, element] of Object.entries(data)) {
+          if (this.state.countries.has(countryKey)) {
+            const country = element[0];
+            const box = [
+              [element[1][0], element[1][1]],
+              [element[1][2], element[1][3]],
+            ];
+            boxes[country] = box;
+            options.push({ value: country, label: country });
+          }
+        }
 
         this.setState({
           options: options,
@@ -138,6 +117,7 @@ class App extends Component {
   render() {
     return (
       <div className="app">
+        <Map markers={this.state.markers} bounds={this.state.bounds} />
         <div className="controls">
           <MapSelector
             actionFnct={this.setBounds}
@@ -145,7 +125,6 @@ class App extends Component {
           />
           <Slider actionFnct={this.updateMarkers} />
         </div>
-        <Map markers={this.state.markers} bounds={this.state.bounds} />
       </div>
     );
   }

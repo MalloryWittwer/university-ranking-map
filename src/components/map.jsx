@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import ReactDOMServer from "react-dom/server";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
-
 import Popup from "./popup";
 
 const key = process.env.REACT_APP_MAPBOX_API_KEY;

@@ -34,7 +34,7 @@ code {
   justify-content: center;
   position: absolute;
   top: 50px;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .range-container {
@@ -109,9 +109,15 @@ output {
 }
 
 h3 {
-  padding-bottom: 10px;
-  margin-bottom: 20px;
   font-weight: normal;
+}
+
+.rank-label {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-top: 0;
+  padding-bottom: 10px;
   border-bottom: 1px solid white;
 }
 
@@ -124,5 +130,4 @@ h3 {
   padding-bottom: 20px !important;
   opacity: 0.9;
   min-width: 200px;
-  z-index: 10;
 }
