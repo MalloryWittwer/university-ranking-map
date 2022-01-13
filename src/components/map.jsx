@@ -60,8 +60,6 @@ class Map extends Component {
     this.currentMarkers = [];
     this.updateMarkers();
     this.updateBounds();
-
-    // console.log(this.map.getStyle());
   }
 
   render() {
