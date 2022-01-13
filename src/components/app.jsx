@@ -63,7 +63,7 @@ class App extends Component {
   }
 
   componentDidMount = () => {
-    fetch("data-ranking.json")
+    fetch(process.env.PUBLIC_URL + '/data-ranking.json')
       .then((response) => response.json())
       .then((data) => {
         this.setState({ rankingData: data });
