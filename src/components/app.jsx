@@ -44,37 +44,35 @@ class App extends Component {
     this.setState({ bounds: this.state.boxes[area] });
   }
 
-  handleRankingData = () => {
+  componentDidMount = () => {
+    let mrk = [];
+    let ctrs = new Set([]);
+    let boxes = {};
+    let options = [];
+
     fetch(process.env.PUBLIC_URL + "/data-ranking.json")
       .then((response) => response.json())
       .then((data) => {
-        this.setState({ rankingData: data });
-        let markers = [];
-        let countries = new Set([]);
         for (const [university, element] of Object.entries(data)) {
-          markers.push({
+          mrk.push({
             university: university,
             rank: element.rank,
             lat: element.lat,
             lng: element.lng,
             url: element.url,
           });
-          countries.add(element.country);
+          ctrs.add(element.country);
         }
         this.setState({
-          markers: markers,
-          countries: countries,
+          rankingData: data,
+          markers: mrk,
+          countries: ctrs,
         });
       });
-  };
 
-  handleBoundingBoxes = () => {
     fetch(process.env.PUBLIC_URL + "/country-boxes.json")
       .then((response) => response.json())
       .then((data) => {
-        let boxes = {};
-        let options = [];
-
         // Add World
         options.push({ value: "World", label: "World" });
         boxes["World"] = [
@@ -101,17 +99,11 @@ class App extends Component {
             options.push({ value: country, label: country });
           }
         }
-
         this.setState({
           options: options,
           boxes: boxes,
         });
       });
-  };
-
-  componentDidMount = () => {
-    this.handleRankingData();
-    this.handleBoundingBoxes();
   };
 
   render() {
