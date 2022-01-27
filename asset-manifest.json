@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/university-ranking-map/static/css/main.6e568d5b.css",
-    "main.js": "/university-ranking-map/static/js/main.1477e71e.js",
+    "main.js": "/university-ranking-map/static/js/main.15df5631.js",
     "static/js/mapbox-gl-csp-worker.a72bfb30.worker.js": "/university-ranking-map/static/js/mapbox-gl-csp-worker.a72bfb30.worker.js",
     "index.html": "/university-ranking-map/index.html",
     "main.6e568d5b.css.map": "/university-ranking-map/static/css/main.6e568d5b.css.map",
-    "main.1477e71e.js.map": "/university-ranking-map/static/js/main.1477e71e.js.map"
+    "main.15df5631.js.map": "/university-ranking-map/static/js/main.15df5631.js.map"
   },
   "entrypoints": [
     "static/css/main.6e568d5b.css",
-    "static/js/main.1477e71e.js"
+    "static/js/main.15df5631.js"
   ]
 }
